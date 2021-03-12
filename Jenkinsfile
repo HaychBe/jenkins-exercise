@@ -13,7 +13,7 @@ pipeline{
             }
             stage('Deploy env'){
                 steps{
-                    sh "cd ~/Jenkins_exercise1/chaperootodo_client && deploy.sh"
+                    sh "deploy.sh"
                 }
             }
         }
